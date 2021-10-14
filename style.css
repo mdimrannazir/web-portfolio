@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -11,6 +12,9 @@ h1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.quote{
+    font-size: 25px;
+}
 .halfWidth{
     width: 40%;
     float: left;
@@ -19,4 +23,29 @@ h1{
 }
 .halfWidth img{
     width: 100%;
+}
+.topBanner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+    
+}
+section{
+    height: 700px;
+}
+.linkButton{
+    text-decoration: none;
+    background-image: linear-gradient(#f7b42c, #fc575e);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.midBanner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+   background-position: right;
+    
+    
 }
