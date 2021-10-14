@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 50px;
 }
-.nameHighlight{
+.gradientHighlight{
     background: -webkit-linear-gradient(#f7b42c, #fc575e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19,7 +19,7 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .halfWidth img{
     width: 100%;
@@ -39,13 +39,37 @@ section{
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .midBanner{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
    background-position: right;
-    
-    
+}
+.singleExperience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: #fff;
+}
+.experienceArea{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0px 110px;
+}
+#fullStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#fc575e, #f7b42c);
+    border-image-slice: 1;
+}
+#entryStack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#2c84f7, #57fcca);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
